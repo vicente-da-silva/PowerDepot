@@ -1,0 +1,861 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 5350 950  0    50   ~ 0
+LOAD+
+Text Label 1700 1700 0    50   ~ 0
+BATMON1+
+Text Label 1700 850  0    50   ~ 0
+MPPTBAT+
+Text Label 1700 950  0    50   ~ 0
+DCDCOut+
+Text Label 5050 3250 0    50   ~ 0
+LOAD-
+Text Label 1700 3250 0    50   ~ 0
+SCHARGER-
+Connection ~ 2450 3050
+Wire Wire Line
+	2450 2950 2450 3050
+Wire Wire Line
+	1700 2950 2450 2950
+Connection ~ 2450 3150
+Wire Wire Line
+	2450 3050 2450 3150
+Wire Wire Line
+	1700 3050 2450 3050
+Connection ~ 2450 3250
+Text Label 1700 3150 0    50   ~ 0
+MPPTBAT-
+Wire Wire Line
+	2450 3250 1700 3250
+Wire Wire Line
+	1700 3150 2450 3150
+Text Label 3050 2500 0    50   ~ 0
+SHUNT_LOAD_OR_ABAT-
+Text Label 1950 2500 0    50   ~ 0
+SBAT-
+Text Label 1700 3050 0    50   ~ 0
+DCDCIn-
+Text Label 1700 2950 0    50   ~ 0
+DCDCOut-
+Text Label 1700 4000 0    50   ~ 0
+MPPTPV-
+Text Label 1700 3900 0    50   ~ 0
+PV-
+Text Label 1700 3700 0    50   ~ 0
+MPPTPV+
+Text Label 1700 3800 0    50   ~ 0
+PV+
+Text Label 1700 1800 0    50   ~ 0
+BATMON2+
+Text Label 1700 2050 0    50   ~ 0
+DCDCIn+
+Text Label 1950 2400 0    50   ~ 0
+SBAT+
+Text Label 1700 4400 0    50   ~ 0
+Ignition
+Wire Wire Line
+	2350 4400 2350 4300
+Wire Wire Line
+	1700 4400 2350 4400
+Text Label 1700 4300 0    50   ~ 0
+DCDCCtl
+Wire Wire Line
+	1700 4300 2350 4300
+Text Label 3100 2300 0    50   ~ 0
+SHUNT_BAT_OR_ABAT-
+Text Label 1700 1250 0    50   ~ 0
+ABAT+
+Text Label 5350 3650 0    50   ~ 0
+FAN+
+Wire Wire Line
+	2450 3150 2450 3250
+Wire Wire Line
+	5350 3250 2450 3250
+Text Label 1700 1950 0    50   ~ 0
+SCHARGER+
+Wire Wire Line
+	1700 1700 3600 1700
+Connection ~ 2450 2950
+Wire Wire Line
+	1700 1800 2900 1800
+Wire Wire Line
+	3950 2300 3000 2300
+Connection ~ 2450 2700
+Wire Wire Line
+	2450 2700 2450 2950
+Wire Wire Line
+	2450 2700 3000 2700
+Wire Wire Line
+	3000 2700 3000 2500
+Wire Wire Line
+	3000 2500 3950 2500
+Wire Wire Line
+	3000 1350 3000 2300
+Wire Wire Line
+	1700 2050 2150 2050
+Wire Wire Line
+	1700 3700 2500 3700
+Wire Wire Line
+	1700 3800 2500 3800
+$Sheet
+S 10050 5600 1050 750 
+U 610C728F
+F0 "MISC" 50
+F1 "MISC.sch" 50
+$EndSheet
+Text Label 3150 850  0    50   ~ 0
+FUSE1
+Text Label 3150 1250 0    50   ~ 0
+FUSE3
+Wire Wire Line
+	2450 850  3600 850 
+Wire Wire Line
+	1700 850  2150 850 
+Wire Wire Line
+	1700 950  2150 950 
+Wire Wire Line
+	2450 950  3600 950 
+Wire Wire Line
+	2450 1250 3600 1250
+Wire Wire Line
+	1700 1950 2150 1950
+Text Label 3300 1950 0    50   ~ 0
+FUSE6
+Text Label 6150 1250 0    50   ~ 0
+FUSE4
+Text Label 6150 1950 0    50   ~ 0
+FUSE5
+Text Label 3150 950  0    50   ~ 0
+FUSE2
+$Comp
+L FJPCBComponentsCommon:Shunt S1
+U 1 1 60836CB5
+P 4050 2300
+F 0 "S1" V 3800 2300 50  0000 L CNN
+F 1 "Shunt" V 4500 2400 50  0000 L CNN
+F 2 "FJElectricsPCBCommon:Shunt" H 4050 2300 50  0001 C CNN
+F 3 "" H 4050 2300 50  0001 C CNN
+	1    4050 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse Fuse_2
+U 1 1 60BBCD4A
+P 2300 950
+F 0 "Fuse_2" V 2350 700 50  0000 C CNN
+F 1 "50A" V 2350 450 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:FuseHolderMaxi" V 2230 950 50  0001 C CNN
+F 3 "~" H 2300 950 50  0001 C CNN
+	1    2300 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Fuse Fuse_1
+U 1 1 60BC1CAA
+P 2300 850
+F 0 "Fuse_1" V 2350 600 50  0000 C CNN
+F 1 "50A" V 2350 350 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:FuseHolderMaxi" V 2230 850 50  0001 C CNN
+F 3 "~" H 2300 850 50  0001 C CNN
+	1    2300 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 60DF7C9F
+P 1500 3700
+F 0 "J13" H 2250 3650 50  0000 C CNN
+F 1 "MEDIUM TB x2" H 1850 3650 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:TerminalBlock_7.62_2x1" H 1500 3700 50  0001 C CNN
+F 3 "~" H 1500 3700 50  0001 C CNN
+	1    1500 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J15
+U 1 1 60DF87A7
+P 1500 4400
+F 0 "J15" H 2250 4350 50  0000 C CNN
+F 1 "SMALL TB x2" H 1850 4350 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:TerminalBlock_5_2x1" H 1500 4400 50  0001 C CNN
+F 3 "~" H 1500 4400 50  0001 C CNN
+	1    1500 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse Fuse_7
+U 1 1 60E6C414
+P 2300 2050
+F 0 "Fuse_7" V 2200 2050 50  0000 C CNN
+F 1 "50A" V 2350 1850 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:FuseHolderMaxi" V 2230 2050 50  0001 C CNN
+F 3 "~" H 2300 2050 50  0001 C CNN
+	1    2300 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 60F02240
+P 1500 850
+F 0 "J1" H 2200 800 50  0000 C CNN
+F 1 "MEDIUM TB x2" H 1850 800 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:TerminalBlock_7.62_2x1" H 1500 850 50  0001 C CNN
+F 3 "~" H 1500 850 50  0001 C CNN
+	1    1500 850 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 60FB208A
+P 1500 3050
+F 0 "J10" H 2250 3000 50  0000 C CNN
+F 1 "MEDIUM TB x2" H 1850 3000 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:TerminalBlock_7.62_2x1" H 1500 3050 50  0001 C CNN
+F 3 "~" H 1500 3050 50  0001 C CNN
+	1    1500 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 60FB2D4C
+P 1500 3250
+F 0 "J12" H 2250 3200 50  0000 C CNN
+F 1 "MEDIUM TB x2" H 1850 3200 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:TerminalBlock_7.62_2x1" H 1500 3250 50  0001 C CNN
+F 3 "~" H 1500 3250 50  0001 C CNN
+	1    1500 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 60ECBBEC
+P 1500 1950
+F 0 "J6" H 2200 1900 50  0000 C CNN
+F 1 "MEDIUM TB x2" H 1850 1900 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:TerminalBlock_7.62_2x1" H 1500 1950 50  0001 C CNN
+F 3 "~" H 1500 1950 50  0001 C CNN
+	1    1500 1950
+	-1   0    0    -1  
+$EndComp
+Text Label 3000 4950 0    50   ~ 0
+LOAD-
+Text Label 3000 4850 0    50   ~ 0
+LOAD+
+$Comp
+L Device:Fuse Fuse_8
+U 1 1 607856DC
+P 2500 4850
+F 0 "Fuse_8" V 2600 4850 50  0000 C CNN
+F 1 "120A" V 2600 4550 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:FuseHolderMaxiWithMega" V 2430 4850 50  0001 C CNN
+F 3 "~" H 2500 4850 50  0001 C CNN
+	1    2500 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Fuse Fuse_6
+U 1 1 6078626A
+P 2300 1950
+F 0 "Fuse_6" V 2400 1950 50  0000 C CNN
+F 1 "50A" V 2350 1750 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:FuseHolderMaxi" V 2230 1950 50  0001 C CNN
+F 3 "~" H 2300 1950 50  0001 C CNN
+	1    2300 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 2050 2900 2050
+Text Label 2600 2050 0    50   ~ 0
+FUSE7
+Wire Wire Line
+	2650 4850 3450 4850
+Text Label 2100 4850 2    50   ~ 0
+FUSE8
+Text Label 7950 5100 2    50   ~ 0
+FUSE4
+Text Label 7950 5500 2    50   ~ 0
+FUSE5
+Text Label 9700 4300 2    50   ~ 0
+FUSE3
+Text Label 9700 3450 2    50   ~ 0
+FUSE1
+Wire Wire Line
+	9350 4300 9700 4300
+Wire Wire Line
+	8750 4300 8300 4300
+$Comp
+L Device:R_US R4
+U 1 1 6079F890
+P 9200 3450
+AR Path="/6079F890" Ref="R4"  Part="1" 
+AR Path="/610C728F/6079F890" Ref="R?"  Part="1" 
+F 0 "R4" V 9350 3450 50  0000 C CNN
+F 1 "600" V 9450 3450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9240 3440 50  0001 C CNN
+F 3 "~" H 9200 3450 50  0001 C CNN
+	1    9200 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9350 3450 9700 3450
+Wire Wire Line
+	8750 3450 8300 3450
+Wire Wire Line
+	9350 3900 9700 3900
+Wire Wire Line
+	8750 3900 8300 3900
+Wire Wire Line
+	7600 5100 7950 5100
+Wire Wire Line
+	7000 5100 6550 5100
+Wire Wire Line
+	7600 5500 7950 5500
+Wire Wire Line
+	7000 5500 6550 5500
+$Comp
+L Device:LED Fuse1
+U 1 1 6079F8C2
+P 8900 3450
+AR Path="/6079F8C2" Ref="Fuse1"  Part="1" 
+AR Path="/610C728F/6079F8C2" Ref="Fuse?"  Part="1" 
+F 0 "Fuse1" H 8893 3195 50  0000 C CNN
+F 1 "LED" H 8893 3286 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 8900 3450 50  0001 C CNN
+F 3 "~" H 8900 3450 50  0001 C CNN
+	1    8900 3450
+	-1   0    0    1   
+$EndComp
+Text Label 9700 5900 2    50   ~ 0
+FUSE6
+$Comp
+L Device:R_US R7
+U 1 1 6079F8C9
+P 9200 5500
+AR Path="/6079F8C9" Ref="R7"  Part="1" 
+AR Path="/610C728F/6079F8C9" Ref="R?"  Part="1" 
+F 0 "R7" V 9400 5500 50  0000 C CNN
+F 1 "600" V 9300 5500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9240 5490 50  0001 C CNN
+F 3 "~" H 9200 5500 50  0001 C CNN
+	1    9200 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED Fuse6
+U 1 1 6079F8D1
+P 8900 5500
+AR Path="/6079F8D1" Ref="Fuse6"  Part="1" 
+AR Path="/610C728F/6079F8D1" Ref="Fuse?"  Part="1" 
+F 0 "Fuse6" H 8900 5300 50  0000 C CNN
+F 1 "LED" H 8900 5400 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 8900 5500 50  0001 C CNN
+F 3 "~" H 8900 5500 50  0001 C CNN
+	1    8900 5500
+	-1   0    0    1   
+$EndComp
+Text Label 8300 3450 0    50   ~ 0
+MPPTBAT+
+Text Label 8300 3900 0    50   ~ 0
+DCDCOut+
+Text Label 8300 5900 0    50   ~ 0
+SCHARGER+
+Text Label 8300 4300 0    50   ~ 0
+ABAT+
+Text Label 9700 3900 2    50   ~ 0
+FUSE2
+Text Label 7950 5900 2    50   ~ 0
+FUSE8
+$Comp
+L Device:R_US R1
+U 1 1 6079F8DF
+P 9200 5900
+AR Path="/6079F8DF" Ref="R1"  Part="1" 
+AR Path="/610C728F/6079F8DF" Ref="R?"  Part="1" 
+F 0 "R1" V 9400 5900 50  0000 C CNN
+F 1 "600" V 9300 5900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9240 5890 50  0001 C CNN
+F 3 "~" H 9200 5900 50  0001 C CNN
+	1    9200 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED Fuse7
+U 1 1 6079F8E5
+P 8900 5900
+AR Path="/6079F8E5" Ref="Fuse7"  Part="1" 
+AR Path="/610C728F/6079F8E5" Ref="Fuse?"  Part="1" 
+F 0 "Fuse7" H 8900 5700 50  0000 C CNN
+F 1 "LED" H 8900 5800 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 8900 5900 50  0001 C CNN
+F 3 "~" H 8900 5900 50  0001 C CNN
+	1    8900 5900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9350 5900 9700 5900
+Wire Wire Line
+	8750 5900 8300 5900
+Wire Wire Line
+	7600 5900 7950 5900
+Wire Wire Line
+	7000 5900 6550 5900
+Text Label 6550 5900 0    50   ~ 0
+LOAD+
+Text Label 8300 5500 0    50   ~ 0
+DCDCIn+
+Text Label 9700 5500 2    50   ~ 0
+FUSE7
+Wire Wire Line
+	8750 5500 8300 5500
+Wire Wire Line
+	9350 5500 9700 5500
+Text Label 6550 5100 0    50   ~ 0
+LOAD+
+Text Label 6550 5500 0    50   ~ 0
+LOAD+
+$Comp
+L Connector_Generic:Conn_01x02 J14
+U 1 1 608516B3
+P 1500 3900
+F 0 "J14" H 2250 3850 50  0000 C CNN
+F 1 "MEDIUM TB x2" H 1850 3850 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:TerminalBlock_7.62_2x1" H 1500 3900 50  0001 C CNN
+F 3 "~" H 1500 3900 50  0001 C CNN
+	1    1500 3900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3900 2500 3900
+Wire Wire Line
+	1700 4000 2500 4000
+Wire Wire Line
+	2500 3700 2500 3800
+Wire Wire Line
+	2500 3900 2500 4000
+Connection ~ 2900 2050
+Wire Wire Line
+	2900 2050 2900 2400
+Wire Wire Line
+	1700 2400 1800 2400
+Wire Wire Line
+	1700 2500 1900 2500
+Wire Wire Line
+	2450 2500 2450 2700
+$Comp
+L Connector_Generic:Conn_01x02 J22
+U 1 1 608BDC93
+P 1500 4850
+F 0 "J22" H 2200 4800 50  0000 C CNN
+F 1 "SB120" H 1850 4800 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:SA120" H 1500 4850 50  0001 C CNN
+F 3 "~" H 1500 4850 50  0001 C CNN
+	1    1500 4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 6079F8ED
+P 7450 5900
+AR Path="/6079F8ED" Ref="R3"  Part="1" 
+AR Path="/610C728F/6079F8ED" Ref="R?"  Part="1" 
+F 0 "R3" V 7650 5900 50  0000 C CNN
+F 1 "600" V 7550 5900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7490 5890 50  0001 C CNN
+F 3 "~" H 7450 5900 50  0001 C CNN
+	1    7450 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED Fuse8
+U 1 1 6079F8F3
+P 7150 5900
+AR Path="/6079F8F3" Ref="Fuse8"  Part="1" 
+AR Path="/610C728F/6079F8F3" Ref="Fuse?"  Part="1" 
+F 0 "Fuse8" H 7150 5700 50  0000 C CNN
+F 1 "LED" H 7150 5800 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 7150 5900 50  0001 C CNN
+F 3 "~" H 7150 5900 50  0001 C CNN
+	1    7150 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R8
+U 1 1 6079F8B4
+P 7150 5500
+AR Path="/6079F8B4" Ref="R8"  Part="1" 
+AR Path="/610C728F/6079F8B4" Ref="R?"  Part="1" 
+F 0 "R8" V 7350 5500 50  0000 C CNN
+F 1 "600" V 7250 5500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7190 5490 50  0001 C CNN
+F 3 "~" H 7150 5500 50  0001 C CNN
+	1    7150 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED Fuse5
+U 1 1 6079F8BA
+P 7450 5500
+AR Path="/6079F8BA" Ref="Fuse5"  Part="1" 
+AR Path="/610C728F/6079F8BA" Ref="Fuse?"  Part="1" 
+F 0 "Fuse5" H 7450 5300 50  0000 C CNN
+F 1 "LED" H 7450 5400 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 7450 5500 50  0001 C CNN
+F 3 "~" H 7450 5500 50  0001 C CNN
+	1    7450 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R6
+U 1 1 6079F8A6
+P 7150 5100
+AR Path="/6079F8A6" Ref="R6"  Part="1" 
+AR Path="/610C728F/6079F8A6" Ref="R?"  Part="1" 
+F 0 "R6" V 7350 5100 50  0000 C CNN
+F 1 "600" V 7250 5100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7190 5090 50  0001 C CNN
+F 3 "~" H 7150 5100 50  0001 C CNN
+	1    7150 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED Fuse4
+U 1 1 6079F8AC
+P 7450 5100
+AR Path="/6079F8AC" Ref="Fuse4"  Part="1" 
+AR Path="/610C728F/6079F8AC" Ref="Fuse?"  Part="1" 
+F 0 "Fuse4" H 7450 4900 50  0000 C CNN
+F 1 "LED" H 7450 5000 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 7450 5100 50  0001 C CNN
+F 3 "~" H 7450 5100 50  0001 C CNN
+	1    7450 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED Fuse2
+U 1 1 6079F89E
+P 8900 3900
+AR Path="/6079F89E" Ref="Fuse2"  Part="1" 
+AR Path="/610C728F/6079F89E" Ref="Fuse?"  Part="1" 
+F 0 "Fuse2" H 8900 3700 50  0000 C CNN
+F 1 "LED" H 8900 3800 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 8900 3900 50  0001 C CNN
+F 3 "~" H 8900 3900 50  0001 C CNN
+	1    8900 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 6079F898
+P 9200 3900
+AR Path="/6079F898" Ref="R5"  Part="1" 
+AR Path="/610C728F/6079F898" Ref="R?"  Part="1" 
+F 0 "R5" V 9400 3900 50  0000 C CNN
+F 1 "600" V 9300 3900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9240 3890 50  0001 C CNN
+F 3 "~" H 9200 3900 50  0001 C CNN
+	1    9200 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Fuse Fuse_3
+U 1 1 60BBC3A0
+P 2300 1250
+F 0 "Fuse_3" V 2350 1000 50  0000 C CNN
+F 1 "120A" V 2350 700 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:FuseHolderMaxiWithMega" V 2230 1250 50  0001 C CNN
+F 3 "~" H 2300 1250 50  0001 C CNN
+	1    2300 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J19
+U 1 1 608B4B53
+P 1500 2500
+F 0 "J19" H 2200 2450 50  0000 C CNN
+F 1 "SB50 PC" H 1850 2450 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:SA50" H 1500 2500 50  0001 C CNN
+F 3 "~" H 1500 2500 50  0001 C CNN
+	1    1500 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J18
+U 1 1 608AF821
+P 1500 1250
+F 0 "J18" H 2200 1200 50  0000 C CNN
+F 1 "SB120" H 1850 1200 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:SA120" H 1500 1250 50  0001 C CNN
+F 3 "~" H 1500 1250 50  0001 C CNN
+	1    1500 1250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J25
+U 1 1 60BEB6FC
+P 2700 3900
+F 0 "J25" H 2700 3700 50  0000 C CNN
+F 1 "PP15" H 2850 3850 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:PowerPole_15_45" H 2700 3900 50  0001 C CNN
+F 3 "~" H 2700 3900 50  0001 C CNN
+	1    2700 3900
+	1    0    0    1   
+$EndComp
+Connection ~ 2500 3900
+Connection ~ 2500 3800
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 60E65411
+P 1500 1700
+F 0 "J4" H 2200 1650 50  0000 C CNN
+F 1 "SMALL TB x2" H 1850 1650 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:TerminalBlock_5_2x1" H 1500 1700 50  0001 C CNN
+F 3 "~" H 1500 1700 50  0001 C CNN
+	1    1500 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J26
+U 1 1 60C701CB
+P 5750 3650
+F 0 "J26" H 5830 3642 50  0000 L CNN
+F 1 "Conn_01x02" H 5830 3551 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5750 3650 50  0001 C CNN
+F 3 "~" H 5750 3650 50  0001 C CNN
+	1    5750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED Fuse3
+U 1 1 6079F888
+P 9200 4300
+AR Path="/6079F888" Ref="Fuse3"  Part="1" 
+AR Path="/610C728F/6079F888" Ref="Fuse?"  Part="1" 
+F 0 "Fuse3" H 9200 4100 50  0000 C CNN
+F 1 "LED" H 9200 4200 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 9200 4300 50  0001 C CNN
+F 3 "~" H 9200 4300 50  0001 C CNN
+	1    9200 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 6079F87E
+P 8900 4300
+AR Path="/6079F87E" Ref="R2"  Part="1" 
+AR Path="/610C728F/6079F87E" Ref="R?"  Part="1" 
+F 0 "R2" V 9100 4300 50  0000 C CNN
+F 1 "600" V 9000 4300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8940 4290 50  0001 C CNN
+F 3 "~" H 8900 4300 50  0001 C CNN
+	1    8900 4300
+	0    -1   -1   0   
+$EndComp
+Text Label 5350 3750 0    50   ~ 0
+FAN-
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 60AFFDCC
+P 1500 2300
+F 0 "J7" H 2200 2250 50  0000 C CNN
+F 1 "SB50" H 1900 2250 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:SA50_2" H 1500 2300 50  0001 C CNN
+F 3 "~" H 1500 2300 50  0001 C CNN
+	1    1500 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 2300 1800 2300
+Wire Wire Line
+	1800 2300 1800 2400
+Connection ~ 1800 2400
+Wire Wire Line
+	1800 2400 2900 2400
+Wire Wire Line
+	1700 2200 1900 2200
+Wire Wire Line
+	1900 2200 1900 2500
+Connection ~ 1900 2500
+Wire Wire Line
+	1900 2500 2450 2500
+Wire Wire Line
+	3600 850  3600 950 
+Connection ~ 3600 950 
+Wire Wire Line
+	3600 1250 3600 1700
+Connection ~ 3600 1250
+Wire Wire Line
+	4400 1250 4400 950 
+Connection ~ 4400 950 
+Wire Wire Line
+	3600 1250 4400 1250
+Wire Wire Line
+	3600 950  4400 950 
+Wire Wire Line
+	2900 1800 2900 2050
+Wire Wire Line
+	2450 1950 3600 1950
+Wire Wire Line
+	3600 1950 3600 1700
+Connection ~ 3600 1700
+Text Notes 650  2650 1    50   ~ 0
+SBat Inputs
+Text Notes 650  1650 1    50   ~ 0
+Aux Bat Inputs
+Text Notes 650  5300 1    50   ~ 0
+Main Load Output
+Text Notes 8250 1700 1    50   ~ 0
+High Out 1
+Wire Wire Line
+	5550 3650 4700 3650
+Wire Wire Line
+	5550 3750 4700 3750
+Text Label 4700 3650 0    50   ~ 0
+LOAD+
+Text Label 4700 3750 0    50   ~ 0
+LOAD-
+$Comp
+L Connector_Generic:Conn_01x02 J27
+U 1 1 60AE369D
+P 7300 1550
+F 0 "J27" H 8000 1500 50  0000 C CNN
+F 1 "SB50" H 7450 1500 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:SA50_2" H 7300 1550 50  0001 C CNN
+F 3 "~" H 7300 1550 50  0001 C CNN
+	1    7300 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J21
+U 1 1 608C446F
+P 7300 2150
+F 0 "J21" H 8000 2100 50  0000 C CNN
+F 1 "SB50 PC" H 7550 2100 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:SA50" H 7300 2150 50  0001 C CNN
+F 3 "~" H 7300 2150 50  0001 C CNN
+	1    7300 2150
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J20
+U 1 1 608C3B99
+P 7300 1450
+F 0 "J20" H 8000 1400 50  0000 C CNN
+F 1 "SB50 PC" H 7550 1400 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:SA50" H 7300 1450 50  0001 C CNN
+F 3 "~" H 7300 1450 50  0001 C CNN
+	1    7300 1450
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J28
+U 1 1 60AED865
+P 7300 2250
+F 0 "J28" H 8000 2200 50  0000 C CNN
+F 1 "SB50" H 7450 2200 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:SA50_2" H 7300 2250 50  0001 C CNN
+F 3 "~" H 7300 2250 50  0001 C CNN
+	1    7300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1350 6800 1350
+Wire Wire Line
+	7100 1550 6800 1550
+Wire Wire Line
+	6800 1550 6800 1350
+Wire Wire Line
+	7100 1450 6700 1450
+Wire Wire Line
+	6700 1450 6700 1650
+Wire Wire Line
+	6700 1650 7100 1650
+Connection ~ 6700 1650
+Wire Wire Line
+	7100 2050 6800 2050
+Wire Wire Line
+	7100 2250 6800 2250
+Wire Wire Line
+	6800 2250 6800 2050
+Wire Wire Line
+	7100 2350 6700 2350
+Wire Wire Line
+	7100 2150 6700 2150
+Wire Wire Line
+	6700 2150 6700 2350
+Connection ~ 6700 2350
+Text Notes 8250 2400 1    50   ~ 0
+High Out 2
+Wire Wire Line
+	5350 2350 6700 2350
+Wire Wire Line
+	5600 950  5600 1250
+Connection ~ 5600 1250
+Wire Wire Line
+	5600 1250 5800 1250
+Wire Wire Line
+	5600 1950 5800 1950
+Wire Wire Line
+	4400 950  5600 950 
+Wire Wire Line
+	5350 1650 5350 2350
+Wire Wire Line
+	5350 1650 6700 1650
+Connection ~ 5350 2350
+Wire Wire Line
+	5350 2350 5350 3250
+$Comp
+L Device:Fuse Fuse_4
+U 1 1 60C3B15B
+P 5950 1250
+F 0 "Fuse_4" V 5850 1250 50  0000 C CNN
+F 1 "80A" V 6050 1250 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:FuseHolderMaxi" V 5880 1250 50  0001 C CNN
+F 3 "~" H 5950 1250 50  0001 C CNN
+	1    5950 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Fuse Fuse_5
+U 1 1 60C3C838
+P 5950 1950
+F 0 "Fuse_5" V 5850 1950 50  0000 C CNN
+F 1 "80A" V 6050 1950 50  0000 C CNN
+F 2 "FJElectricsPCBCommon:FuseHolderMaxi" V 5880 1950 50  0001 C CNN
+F 3 "~" H 5950 1950 50  0001 C CNN
+	1    5950 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 1950 6800 1950
+Connection ~ 6800 2050
+Wire Wire Line
+	6800 2050 6800 1950
+Wire Wire Line
+	6100 1250 6800 1250
+Connection ~ 6800 1350
+Wire Wire Line
+	6800 1350 6800 1250
+Wire Wire Line
+	5600 1250 5600 1950
+Wire Wire Line
+	1700 1350 3000 1350
+Wire Wire Line
+	1700 1250 2150 1250
+Wire Wire Line
+	1700 4850 2350 4850
+Wire Wire Line
+	1700 4950 3450 4950
+$EndSCHEMATC

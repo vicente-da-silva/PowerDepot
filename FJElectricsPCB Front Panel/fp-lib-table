@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name FJElectricsPCB)(type KiCad)(uri "C:/Users/vicen/OneDrive/Documents/Data/Code/FJElectricsPCB Common/FJElectricsPCB.pretty")(options "")(descr ""))
+  (lib (name "Phoneix Kicad Lib")(type KiCad)(uri "C:/Users/vicen/OneDrive/Documents/Data/Code/Phoneix Kicad Lib")(options "")(descr ""))
+)

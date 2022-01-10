@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\vicen\OneDrive\Documents\Data\Code\FJElectricsPCB Back Panel\FJElectricsPCBBack.sch</source>
+    <date>2021/04/24 10:01:20 AM</date>
+    <tool>Eeschema (5.1.8)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FJElectricsPCBBack.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/MISC/" tstamps="/610C728F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MISC.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="S1">
+      <value>Shunt</value>
+      <footprint>FJElectricsPCBCommon:Shunt</footprint>
+      <libsource lib="FJPCBComponentsCommon" part="Shunt" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60836CB5</tstamp>
+    </comp>
+    <comp ref="Fuse_2">
+      <value>50A</value>
+      <footprint>FJElectricsPCBCommon:FuseHolderMaxi</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BBCD4A</tstamp>
+    </comp>
+    <comp ref="Fuse_1">
+      <value>50A</value>
+      <footprint>FJElectricsPCBCommon:FuseHolderMaxi</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BC1CAA</tstamp>
+    </comp>
+    <comp ref="Fuse_4">
+      <value>80A</value>
+      <footprint>FJElectricsPCBCommon:FuseHolderMaxi</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C3B15B</tstamp>
+    </comp>
+    <comp ref="Fuse_5">
+      <value>80A</value>
+      <footprint>FJElectricsPCBCommon:FuseHolderMaxi</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C3C838</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>SMALL TB x2</value>
+      <footprint>FJElectricsPCBCommon:TerminalBlock_5_2x1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D3B44C</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>MEDIUM TB x2</value>
+      <footprint>FJElectricsPCBCommon:TerminalBlock_7.62_2x1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DF7C9F</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>SMALL TB x2</value>
+      <footprint>FJElectricsPCBCommon:TerminalBlock_5_2x1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DF87A7</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>SMALL TB x2</value>
+      <footprint>FJElectricsPCBCommon:TerminalBlock_5_2x1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E65411</tstamp>
+    </comp>
+    <comp ref="Fuse_6">
+      <value>50A</value>
+      <footprint>FJElectricsPCBCommon:FuseHolderMaxi</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E6C414</tstamp>
+    </comp>
+    <comp ref="Fuse_3">
+      <value>150A</value>
+      <footprint>FJElectricsPCBCommon:FuseHolderMaxiWithMega</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BBC3A0</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>MEDIUM TB x2</value>
+      <footprint>FJElectricsPCBCommon:TerminalBlock_7.62_2x1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F02240</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>MEDIUM TB x2</value>
+      <footprint>FJElectricsPCBCommon:TerminalBlock_7.62_2x1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FB208A</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>MEDIUM TB x2</value>
+      <footprint>FJElectricsPCBCommon:TerminalBlock_7.62_2x1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FB2D4C</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x01</value>
+      <footprint>FJElectricsPCBCommon:TerminalM10_x1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6117C898</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x01</value>
+      <footprint>FJElectricsPCBCommon:TerminalM10_x1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6117D52B</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>MEDIUM TB x2</value>
+      <footprint>FJElectricsPCBCommon:TerminalBlock_7.62_2x1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60ECBBEC</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>LARGE TB x2</value>
+      <footprint>FJElectricsPCBCommon:TerminalM10_x2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6146501E</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>LARGE TB x2</value>
+      <footprint>FJElectricsPCBCommon:TerminalM10_x2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61465D82</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x01</value>
+      <footprint>FJElectricsPCBCommon:TerminalM20_x1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615615A6</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x01</value>
+      <footprint>FJElectricsPCBCommon:TerminalM20_x1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61561D60</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>Conn_01x01</value>
+      <footprint>FJElectricsPCBCommon:TerminalM20_x1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60775C80</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>Conn_01x01</value>
+      <footprint>FJElectricsPCBCommon:TerminalM20_x1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60775C86</tstamp>
+    </comp>
+    <comp ref="Fuse_8">
+      <value>150A</value>
+      <footprint>FJElectricsPCBCommon:FuseHolderMaxi</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607856DC</tstamp>
+    </comp>
+    <comp ref="Fuse_7">
+      <value>50A</value>
+      <footprint>FJElectricsPCBCommon:FuseHolderMaxi</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6078626A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>600</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F87E</tstamp>
+    </comp>
+    <comp ref="Fuse3">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F888</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>600</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F890</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>600</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F898</tstamp>
+    </comp>
+    <comp ref="Fuse2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F89E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>600</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F8A6</tstamp>
+    </comp>
+    <comp ref="Fuse4">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F8AC</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>600</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F8B4</tstamp>
+    </comp>
+    <comp ref="Fuse5">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F8BA</tstamp>
+    </comp>
+    <comp ref="Fuse1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F8C2</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>600</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F8C9</tstamp>
+    </comp>
+    <comp ref="Fuse6">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F8D1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>600</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F8DF</tstamp>
+    </comp>
+    <comp ref="Fuse7">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F8E5</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>600</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F8ED</tstamp>
+    </comp>
+    <comp ref="Fuse8">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079F8F3</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>MEDIUM TB x2</value>
+      <footprint>FJElectricsPCBCommon:TerminalBlock_7.62_2x1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608516B3</tstamp>
+    </comp>
+    <comp ref="H31">
+      <value>MountingHole</value>
+      <footprint>FJElectricsPCBCommon:NPTH_3mm_ID</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/MISC/" tstamps="/610C728F/"/>
+      <tstamp>610D4F05</tstamp>
+    </comp>
+    <comp ref="H28">
+      <value>MountingHole</value>
+      <footprint>FJElectricsPCBCommon:NPTH_3mm_ID</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/MISC/" tstamps="/610C728F/"/>
+      <tstamp>610D4F0B</tstamp>
+    </comp>
+    <comp ref="H21">
+      <value>MountingHole</value>
+      <footprint>FJElectricsPCBCommon:NPTH_3mm_ID</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/MISC/" tstamps="/610C728F/"/>
+      <tstamp>610D4F17</tstamp>
+    </comp>
+    <comp ref="H30">
+      <value>MountingHole</value>
+      <footprint>FJElectricsPCBCommon:NPTH_3mm_ID</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/MISC/" tstamps="/610C728F/"/>
+      <tstamp>610D4F1D</tstamp>
+    </comp>
+    <comp ref="H24">
+      <value>MountingHole</value>
+      <footprint>FJElectricsPCBCommon:NPTH_3mm_ID</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/MISC/" tstamps="/610C728F/"/>
+      <tstamp>610D4F29</tstamp>
+    </comp>
+    <comp ref="H20">
+      <value>MountingHole</value>
+      <footprint>FJElectricsPCBCommon:NPTH_3mm_ID</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/MISC/" tstamps="/610C728F/"/>
+      <tstamp>610D4F2F</tstamp>
+    </comp>
+    <comp ref="H13">
+      <value>MountingHole</value>
+      <footprint>FJElectricsPCBCommon:NPTH_3mm_ID</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/MISC/" tstamps="/610C728F/"/>
+      <tstamp>610D4F3B</tstamp>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole</value>
+      <footprint>FJElectricsPCBCommon:NPTH_3mm_ID</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/MISC/" tstamps="/610C728F/"/>
+      <tstamp>610D4F41</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>FJElectricsPCBCommon:NPTH_3mm_ID</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/MISC/" tstamps="/610C728F/"/>
+      <tstamp>610D4F47</tstamp>
+    </comp>
+    <comp ref="H17">
+      <value>MountingHole</value>
+      <footprint>FJElectricsPCBCommon:NPTH_3mm_ID</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/MISC/" tstamps="/610C728F/"/>
+      <tstamp>610D4F4D</tstamp>
+    </comp>
+    <comp ref="H12">
+      <value>MountingHole</value>
+      <footprint>FJElectricsPCBCommon:NPTH_3mm_ID</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/MISC/" tstamps="/610C728F/"/>
+      <tstamp>610D4F53</tstamp>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole</value>
+      <footprint>FJElectricsPCBCommon:NPTH_3mm_ID</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/MISC/" tstamps="/610C728F/"/>
+      <tstamp>610D4F59</tstamp>
+    </comp>
+    <comp ref="H26">
+      <value>MountingHole</value>
+      <footprint>FJElectricsPCBCommon:NPTH_3mm_ID</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/MISC/" tstamps="/610C728F/"/>
+      <tstamp>610D4F6B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FJPCBComponentsCommon" part="Shunt">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Shunt</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BAT" type="power_in"/>
+        <pin num="2" name="LOAD" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="FJPCBComponentsCommon">
+      <uri>C:/Users/vicen/OneDrive/Documents/Data/Code/FJElectricsPCB Common/FJPCBComponentsCommon.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/DCDCIn-">
+      <node ref="J12" pin="2"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="J10" pin="2"/>
+      <node ref="J12" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="J11" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="S1" pin="2"/>
+      <node ref="J17" pin="1"/>
+    </net>
+    <net code="2" name="/FUSE8">
+      <node ref="Fuse8" pin="1"/>
+      <node ref="J16" pin="1"/>
+      <node ref="Fuse_8" pin="2"/>
+    </net>
+    <net code="3" name="Net-(Fuse3-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="Fuse3" pin="1"/>
+    </net>
+    <net code="4" name="/ABAT+">
+      <node ref="J2" pin="1"/>
+      <node ref="Fuse_3" pin="2"/>
+      <node ref="Fuse3" pin="2"/>
+    </net>
+    <net code="5" name="Net-(Fuse1-Pad1)">
+      <node ref="Fuse1" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="6" name="/MPPTBAT+">
+      <node ref="Fuse1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="Fuse_1" pin="2"/>
+    </net>
+    <net code="7" name="/DCDCOut+">
+      <node ref="Fuse_2" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="8" name="Net-(Fuse2-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="Fuse2" pin="2"/>
+    </net>
+    <net code="9" name="/DCDCIn+">
+      <node ref="J6" pin="2"/>
+      <node ref="Fuse_7" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(Fuse7-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="Fuse7" pin="2"/>
+    </net>
+    <net code="11" name="Net-(Fuse8-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="Fuse8" pin="2"/>
+    </net>
+    <net code="12" name="/SCHARGER+">
+      <node ref="Fuse6" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="Fuse_6" pin="2"/>
+    </net>
+    <net code="13" name="/BATMON2+">
+      <node ref="J4" pin="1"/>
+      <node ref="Fuse7" pin="1"/>
+      <node ref="Fuse_6" pin="1"/>
+      <node ref="Fuse_7" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="14" name="/MPPTPV-">
+      <node ref="J14" pin="2"/>
+      <node ref="J14" pin="1"/>
+    </net>
+    <net code="15" name="Net-(Fuse5-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="Fuse5" pin="2"/>
+    </net>
+    <net code="16" name="/BATMON1+">
+      <node ref="R2" pin="2"/>
+      <node ref="Fuse_8" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="Fuse_5" pin="2"/>
+      <node ref="Fuse_4" pin="2"/>
+      <node ref="Fuse_1" pin="1"/>
+      <node ref="Fuse_2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="Fuse2" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="Fuse_3" pin="1"/>
+    </net>
+    <net code="17" name="Net-(Fuse4-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="Fuse4" pin="2"/>
+    </net>
+    <net code="18" name="/FUSE4">
+      <node ref="J5" pin="2"/>
+      <node ref="Fuse4" pin="1"/>
+      <node ref="Fuse_4" pin="1"/>
+    </net>
+    <net code="19" name="/FUSE5">
+      <node ref="Fuse_5" pin="1"/>
+      <node ref="Fuse5" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="20" name="Net-(Fuse6-Pad1)">
+      <node ref="Fuse6" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="21" name="/DCDCCtl">
+      <node ref="J15" pin="1"/>
+      <node ref="J15" pin="2"/>
+    </net>
+    <net code="22" name="/SHUNT_BAT_OR_ABAT-">
+      <node ref="J3" pin="1"/>
+      <node ref="S1" pin="1"/>
+    </net>
+    <net code="23" name="/MPPTPV+">
+      <node ref="J13" pin="2"/>
+      <node ref="J13" pin="1"/>
+    </net>
+  </nets>
+</export>
